@@ -1,6 +1,6 @@
+using System;
 
-
-class LargestNumber01
+public class LargestNumber
 {
     public static void Main(string[] args)
     {
