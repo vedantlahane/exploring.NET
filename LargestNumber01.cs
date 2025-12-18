@@ -2,7 +2,7 @@ using System;
 
 public class LargestNumber
 {
-    public static void Main(string[] args)
+    public static void Main(String[] args)
     {
         int a = 10, b = 25 , c= 8;
         if(a > b && a > c)
