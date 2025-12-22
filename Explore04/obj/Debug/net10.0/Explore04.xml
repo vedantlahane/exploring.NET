@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Explore04</name>
+    </assembly>
+    <members>
+        <member name="T:Account">
+            <summary>
+            Class representing a bank account.
+            Demonstrates properties with private setters.
+            </summary>
+        </member>
+        <member name="P:Account.AccountNo">
+            <summary>
+            Gets the account number. Can only be set internally.
+            </summary>
+        </member>
+        <member name="M:Account.#ctor(System.Int32)">
+            <summary>
+            Constructor for Account class.
+            </summary>
+            <param name="accNo">The account number.</param>
+        </member>
+        <member name="T:Animal">
+            <summary>
+            Base class representing an animal.
+            Demonstrates single inheritance.
+            </summary>
+        </member>
+        <member name="M:Animal.Eat">
+            <summary>
+            Method for the animal to eat.
+            </summary>
+        </member>
+        <member name="T:AnimalOverride">
+            <summary>
+            Base class for animals with virtual method.
+            Demonstrates method overriding.
+            </summary>
+        </member>
+        <member name="M:AnimalOverride.Sound">
+            <summary>
+            Virtual method that can be overridden by derived classes.
+            Makes a generic animal sound.
+            </summary>
+        </member>
+        <member name="T:Car">
+            <summary>
+            Derived class representing a car.
+            Inherits from Vehicle and adds its own method.
+            Demonstrates basic inheritance.
+            </summary>
+        </member>
+        <member name="M:Car.Drive">
+            <summary>
+            Drives the car.
+            This is a method specific to the Car class.
+            </summary>
+        </member>
+        <member name="T:CarComposition">
+            <summary>
+            Class representing a car using composition.
+            Contains an Engine object instead of inheriting.
+            Demonstrates composition over inheritance.
+            </summary>
+        </member>
+        <member name="F:CarComposition.engine">
+            <summary>
+            Engine instance used by the car.
+            </summary>
+        </member>
+        <member name="M:CarComposition.Drive">
+            <summary>
+            Drives the car by starting the engine and driving.
+            </summary>
+        </member>
+        <member name="T:ChildHiding">
+            <summary>
+            Derived class that hides the parent's Show method.
+            Demonstrates method hiding using 'new' keyword.
+            </summary>
+        </member>
+        <member name="M:ChildHiding.Show">
+            <summary>
+            Hides the parent's Show method.
+            Uses 'new' to explicitly hide instead of override.
+            </summary>
+        </member>
+        <member name="T:ChildSealed">
+            <summary>
+            Derived class that seals the overridden method.
+            Demonstrates sealed override methods.
+            </summary>
+        </member>
+        <member name="M:ChildSealed.Show">
+            <summary>
+            Sealed override method that cannot be overridden further.
+            </summary>
+        </member>
+        <member name="T:Circle">
+            <summary>
+            Class representing a circle with radius and computed area.
+            Demonstrates constructors and read-only properties.
+            </summary>
+        </member>
+        <member name="M:Circle.#ctor(System.Double)">
+            <summary>
+            Constructor for Circle class.
+            </summary>
+            <param name="r">The radius of the circle.</param>
+        </member>
+        <member name="P:Circle.Area">
+            <summary>
+            Gets the area of the circle.
+            Computed as π * r².
+            </summary>
+        </member>
+        <member name="T:Dog">
+            <summary>
+            Derived class representing a dog.
+            Inherits from Animal and adds Bark method.
+            Demonstrates single inheritance.
+            </summary>
+        </member>
+        <member name="M:Dog.Bark">
+            <summary>
+            Method for the dog to bark.
+            </summary>
+        </member>
+        <member name="T:DogOverride">
+            <summary>
+            Derived class that overrides the Sound method.
+            Demonstrates method overriding.
+            </summary>
+        </member>
+        <member name="M:DogOverride.Sound">
+            <summary>
+            Overrides the virtual Sound method from AnimalOverride.
+            Calls base method and adds dog-specific sound.
+            </summary>
+        </member>
+        <member name="T:EmployeeDirectory">
+            <summary>
+            Class demonstrating indexers.
+            Allows accessing employees by ID or name.
+            </summary>
+        </member>
+        <member name="F:EmployeeDirectory.employees">
+            <summary>
+            Dictionary to store employees: ID -> Name
+            </summary>
+        </member>
+        <member name="P:EmployeeDirectory.Item(System.Int32)">
+            <summary>
+            Indexer for accessing employee name by ID.
+            </summary>
+            <param name="id">Employee ID.</param>
+            <returns>Employee name.</returns>
+        </member>
+        <member name="P:EmployeeDirectory.Item(System.String)">
+            <summary>
+            Indexer for accessing employee ID by name.
+            </summary>
+            <param name="name">Employee name.</param>
+            <returns>Employee ID as string.</returns>
+        </member>
+        <member name="T:EmployeeInheritance">
+            <summary>
+            Derived class representing an employee.
+            Inherits from Human and adds Work method.
+            Demonstrates multilevel inheritance.
+            </summary>
+        </member>
+        <member name="M:EmployeeInheritance.Work">
+            <summary>
+            Method for working.
+            </summary>
+        </member>
+        <member name="T:Engine">
+            <summary>
+            Class representing an engine.
+            Used in composition example.
+            </summary>
+        </member>
+        <member name="M:Engine.Start">
+            <summary>
+            Starts the engine.
+            </summary>
+        </member>
+        <member name="T:GrandChild">
+            <summary>
+            Attempted derived class from ChildSealed.
+            Demonstrates that sealed methods cannot be overridden.
+            The commented code would cause a compile-time error.
+            </summary>
+        </member>
+        <member name="T:Human">
+            <summary>
+            Derived class representing a human.
+            Inherits from LivingBeing and adds Think method.
+            Part of multilevel inheritance.
+            </summary>
+        </member>
+        <member name="M:Human.Think">
+            <summary>
+            Method for thinking.
+            </summary>
+        </member>
+        <member name="T:IPrintable">
+            <summary>
+            Interface for objects that can print.
+            Demonstrates interface implementation.
+            </summary>
+        </member>
+        <member name="M:IPrintable.Print">
+            <summary>
+            Prints something.
+            </summary>
+        </member>
+        <member name="T:IScannable">
+            <summary>
+            Interface for objects that can scan.
+            Demonstrates multiple interface implementation.
+            </summary>
+        </member>
+        <member name="M:IScannable.Scan">
+            <summary>
+            Scans something.
+            </summary>
+        </member>
+        <member name="T:LivingBeing">
+            <summary>
+            Base class representing a living being.
+            Part of multilevel inheritance hierarchy.
+            </summary>
+        </member>
+        <member name="M:LivingBeing.Breathe">
+            <summary>
+            Method for breathing.
+            </summary>
+        </member>
+        <member name="T:Machine">
+            <summary>
+            Class representing a machine that can print and scan.
+            Implements multiple interfaces.
+            Demonstrates interface implementation.
+            </summary>
+        </member>
+        <member name="M:Machine.Print">
+            <summary>
+            Implements the Print method from IPrintable.
+            </summary>
+        </member>
+        <member name="M:Machine.Scan">
+            <summary>
+            Implements the Scan method from IScannable.
+            </summary>
+        </member>
+        <member name="T:Marks">
+            <summary>
+            Class demonstrating read-only indexer for marks array.
+            </summary>
+        </member>
+        <member name="F:Marks.marks">
+            <summary>
+            Array of marks.
+            </summary>
+        </member>
+        <member name="P:Marks.Item(System.Int32)">
+            <summary>
+            Read-only indexer to access marks by index.
+            </summary>
+            <param name="index">The index of the mark.</param>
+            <returns>The mark at the specified index.</returns>
+        </member>
+        <member name="T:ParentHiding">
+            <summary>
+            Base class for method hiding example.
+            </summary>
+        </member>
+        <member name="M:ParentHiding.Show">
+            <summary>
+            Method that will be hidden in derived class.
+            </summary>
+        </member>
+        <member name="T:ParentSealed">
+            <summary>
+            Base class with virtual method.
+            Demonstrates sealed methods.
+            </summary>
+        </member>
+        <member name="M:ParentSealed.Show">
+            <summary>
+            Virtual method that can be overridden.
+            </summary>
+        </member>
+        <member name="T:Person">
+            <summary>
+            Base class representing a person.
+            Demonstrates inheritance with constructors.
+            </summary>
+        </member>
+        <member name="F:Person.Name">
+            <summary>
+            The name of the person.
+            </summary>
+        </member>
+        <member name="M:Person.#ctor(System.String)">
+            <summary>
+            Constructor for Person class.
+            Initializes the Name property.
+            </summary>
+            <param name="name">The name of the person.</param>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Main program class demonstrating various OOP concepts including properties, inheritance, interfaces, etc.
+            </summary>
+        </member>
+        <member name="M:Program.Main(System.String[])">
+            <summary>
+            Entry point of the console application.
+            Demonstrates creating objects, setting properties, displaying results, and various inheritance concepts.
+            </summary>
+            <param name="args">Command line arguments (not used).</param>
+        </member>
+        <member name="T:Rectangle">
+            <summary>
+            Class representing a rectangle.
+            Demonstrates auto-implemented properties and expression-bodied properties.
+            </summary>
+        </member>
+        <member name="P:Rectangle.Length">
+            <summary>
+            Gets or sets the length of the rectangle.
+            </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary>
+            Gets or sets the width of the rectangle.
+            </summary>
+        </member>
+        <member name="P:Rectangle.Area">
+            <summary>
+            Gets the area of the rectangle.
+            Computed as Length * Width.
+            </summary>
+        </member>
+        <member name="T:Security">
+            <summary>
+            Sealed class that cannot be inherited.
+            Demonstrates sealed classes to prevent inheritance.
+            </summary>
+        </member>
+        <member name="T:Student">
+            <summary>
+            Class representing a student with properties for name, age, marks, etc.
+            Demonstrates encapsulation, properties, validation, and computed properties.
+            </summary>
+        </member>
+        <member name="M:Student.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor for Student class.
+            Initializes all properties with validation.
+            </summary>
+            <param name="s">Student name.</param>
+            <param name="a">Student age.</param>
+            <param name="m">Student marks.</param>
+            <param name="id">Student ID.</param>
+            <param name="redNo">Registration number.</param>
+        </member>
+        <member name="T:StudentCollection">
+            <summary>
+            Class demonstrating a custom indexer with validation.
+            </summary>
+        </member>
+        <member name="F:StudentCollection.students">
+            <summary>
+            Array to store student names.
+            </summary>
+        </member>
+        <member name="P:StudentCollection.Item(System.Int32)">
+            <summary>
+            Indexer for accessing students with bounds checking.
+            </summary>
+            <param name="index">The index of the student.</param>
+            <returns>The student name at the index.</returns>
+        </member>
+        <member name="T:StudentInheritance">
+            <summary>
+            Derived class representing a student.
+            Inherits from Person and adds RollNo.
+            Demonstrates inheritance with constructor chaining using base().
+            </summary>
+        </member>
+        <member name="F:StudentInheritance.RollNo">
+            <summary>
+            The roll number of the student.
+            </summary>
+        </member>
+        <member name="M:StudentInheritance.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor for StudentInheritance class.
+            Calls base constructor to initialize Name, then initializes RollNo.
+            </summary>
+            <param name="name">The name of the student.</param>
+            <param name="roll">The roll number of the student.</param>
+        </member>
+        <member name="T:Vehicle">
+            <summary>
+            Base class representing a vehicle.
+            Demonstrates basic inheritance where derived classes can inherit methods.
+            </summary>
+        </member>
+        <member name="M:Vehicle.Start">
+            <summary>
+            Starts the vehicle.
+            This method can be inherited by derived classes.
+            </summary>
+        </member>
+    </members>
+</doc>

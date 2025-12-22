@@ -1,5 +1,9 @@
 using System; // Required for Console.WriteLine in setters
 
+/// <summary>
+/// Class representing a student with properties for name, age, marks, etc.
+/// Demonstrates encapsulation, properties, validation, and computed properties.
+/// </summary>
 class Student
 {
     // Private fields for encapsulation: Data is hidden and accessed only via properties.
@@ -92,6 +96,15 @@ class Student
     public double Percentage => (Marks / 100.0) * 100.0;
     // Constructor: Initializes the object with provided values using properties.
     // Ensures validation is applied during creation (e.g., via setters).
+    /// <summary>
+    /// Constructor for Student class.
+    /// Initializes all properties with validation.
+    /// </summary>
+    /// <param name="s">Student name.</param>
+    /// <param name="a">Student age.</param>
+    /// <param name="m">Student marks.</param>
+    /// <param name="id">Student ID.</param>
+    /// <param name="redNo">Registration number.</param>
     public Student(string s, int a, int m, int id, int redNo)
     {
         Name = s;
