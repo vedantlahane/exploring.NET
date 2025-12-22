@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore04\\Explore04.csproj",
-      "projectName": "Explore04",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore04\\Explore04.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore05\\Explore05.csproj",
+      "projectName": "Explore05",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore05\\Explore05.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore04\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\exploring.NET\\Explore05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
