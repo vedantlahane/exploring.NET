@@ -1,0 +1,5 @@
+﻿interface Iprintable
+{
+    void Print();
+    
+}

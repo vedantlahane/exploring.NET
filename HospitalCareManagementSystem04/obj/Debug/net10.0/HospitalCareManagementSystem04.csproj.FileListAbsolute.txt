@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\bin\Debug\net10.0\HospitalCareManagementSystem04.exe
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\bin\Debug\net10.0\HospitalCareManagementSystem04.deps.json
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\bin\Debug\net10.0\HospitalCareManagementSystem04.runtimeconfig.json
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\bin\Debug\net10.0\HospitalCareManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\bin\Debug\net10.0\HospitalCareManagementSystem04.pdb
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.AssemblyInfo.cs
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.sourcelink.json
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\refint\HospitalCareManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.pdb
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\HospitalCareManagementSystem04.genruntimeconfig.cache
+C:\Users\Admin\Desktop\exploring.NET\HospitalCareManagementSystem04\obj\Debug\net10.0\ref\HospitalCareManagementSystem04.dll
