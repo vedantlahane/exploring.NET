@@ -1,16 +1,31 @@
 using System;
+using LibrarySystem.Interfaces;
+
 namespace LibrarySystem.Items
 {
-    public class Book : LibraryItem
+    public class Book : LibraryItem, IReservable, INotifiable
     {
         public override void DisplayItemDetails()
         {
-            Console.WriteLine($"Title: {Title}, Author: {Author}, ItemID: {ItemID}");
+            Console.WriteLine("Item Type: Book");
+            Console.WriteLine($"Title: {Title}");
+            Console.WriteLine($"Author: {Author}");
+            Console.WriteLine($"Item ID: {ItemID}");
         }
 
         public override double CalculateLateFee(int days)
         {
-            return days * 1;
+            return days * 1.0;
+        }
+
+        void IReservable.Reserve()
+        {
+            Console.WriteLine("Book reserved successfully.");
+        }
+
+        void INotifiable.Notify(string message)
+        {
+            Console.WriteLine($"Notification: {message}");
         }
     }
 }
