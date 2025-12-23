@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\bin\Debug\net10.0\InsuranceManagementSystem04.exe
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\bin\Debug\net10.0\InsuranceManagementSystem04.deps.json
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\bin\Debug\net10.0\InsuranceManagementSystem04.runtimeconfig.json
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\bin\Debug\net10.0\InsuranceManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\bin\Debug\net10.0\InsuranceManagementSystem04.pdb
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.AssemblyInfo.cs
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.sourcelink.json
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\refint\InsuranceManagementSystem04.dll
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.pdb
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\InsuranceManagementSystem04.genruntimeconfig.cache
+C:\Users\Admin\Desktop\exploring.NET\InsuranceManagementSystem04\obj\Debug\net10.0\ref\InsuranceManagementSystem04.dll

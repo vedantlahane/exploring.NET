@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explore04", "Explore04\Expl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explore05", "Explore05\Explore05.csproj", "{2573B476-04EA-4F9E-9FB3-624E795285D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceManagementSystem04", "InsuranceManagementSystem04\InsuranceManagementSystem04.csproj", "{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{2573B476-04EA-4F9E-9FB3-624E795285D9}.Release|x64.Build.0 = Release|Any CPU
 		{2573B476-04EA-4F9E-9FB3-624E795285D9}.Release|x86.ActiveCfg = Release|Any CPU
 		{2573B476-04EA-4F9E-9FB3-624E795285D9}.Release|x86.Build.0 = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|x64.Build.0 = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Debug|x86.Build.0 = Debug|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|x64.ActiveCfg = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|x64.Build.0 = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|x86.ActiveCfg = Release|Any CPU
+		{BDDCF3DB-76A0-4EE3-86FE-EF9C4CD2769B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
