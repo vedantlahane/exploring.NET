@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\bin\Debug\net10.0\LibraryManagementSystem05.exe
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\bin\Debug\net10.0\LibraryManagementSystem05.deps.json
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\bin\Debug\net10.0\LibraryManagementSystem05.runtimeconfig.json
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\bin\Debug\net10.0\LibraryManagementSystem05.dll
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\bin\Debug\net10.0\LibraryManagementSystem05.pdb
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.AssemblyInfo.cs
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.sourcelink.json
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.dll
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\refint\LibraryManagementSystem05.dll
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.pdb
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\LibraryManagementSystem05.genruntimeconfig.cache
+C:\Users\Admin\Desktop\exploring.NET\LibraryManagementSystem05\obj\Debug\net10.0\ref\LibraryManagementSystem05.dll
