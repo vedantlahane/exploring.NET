@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem05",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explore06", "Explore06\Explore06.csproj", "{3245F74C-E7C1-4D44-BEA9-02CE6D99E4A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Real-TimeTradingSystem06", "Real-TimeTradingSystem06\Real-TimeTradingSystem06.csproj", "{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{3245F74C-E7C1-4D44-BEA9-02CE6D99E4A9}.Release|x64.Build.0 = Release|Any CPU
 		{3245F74C-E7C1-4D44-BEA9-02CE6D99E4A9}.Release|x86.ActiveCfg = Release|Any CPU
 		{3245F74C-E7C1-4D44-BEA9-02CE6D99E4A9}.Release|x86.Build.0 = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|x64.Build.0 = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC9A3BFF-E8F5-46B7-906A-FD130A8F19AA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
