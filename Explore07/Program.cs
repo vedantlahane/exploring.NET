@@ -3,6 +3,12 @@
     public static void Main()
     {
         Iterating2DArray iterating2DArray = new Iterating2DArray();
-        Iterating2DArray.Iterate();
+        // iterating2DArray.Iterate01();
+        // iterating2DArray.Iterate02();
+        // iterating2DArray.Clear01();
+        iterating2DArray.Copy01();
+        iterating2DArray.Resize01();
     }
+
+
 }
