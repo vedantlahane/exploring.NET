@@ -17,6 +17,8 @@
         collection.Dictionary01();
         Console.WriteLine("HashSet:");
         collection.HashSet01();
+        Console.WriteLine("SortedList:");
+        collection.SortedList01();  
 
         Iterating2DArray iterating2DArray = new();
         Console.WriteLine("Iterating 2D Array:");

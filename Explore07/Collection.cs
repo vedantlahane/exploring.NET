@@ -96,6 +96,11 @@ class Collection
         {
             Console.WriteLine($"{dict.ElementAt(i).Key}: {dict.ElementAt(i).Value}");
         }
+
+        if(dict.TryGetValue(2, out string value))
+        {
+            Console.WriteLine($"Key 2 has value: {value}");
+        }
     }
     
     public void HashSet01()
@@ -107,6 +112,28 @@ class Collection
         foreach (int item in hs)
         {
             Console.WriteLine(item);
+        }
+    }
+
+    public void SortedList01()
+    {
+        SortedList<int, string> sl = new SortedList<int, string>();
+        sl.Add(1, "One");
+        sl.Add(2, "Two");
+        sl.Add(3, "Three");
+        foreach (KeyValuePair<int, string> kvp in sl)
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
+        Console.WriteLine("In reverse order");
+        foreach(KeyValuePair<int, string> kvp in sl.Reverse())
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
+        Console.WriteLine("Another way using lambda function");
+        foreach(var kvp in sl.OrderByDescending(kvp => kvp.Key))
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
         }
     }
 }
