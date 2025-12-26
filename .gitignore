@@ -1,0 +1,75 @@
+# Solution-specific ignores
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+[Tt]emp*/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Bb]uilds/
+[Oo]ut/
+
+# IDE settings
+.vs/
+.vscode/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Others
+*.log
+*.tmp
+*.tmp*
+~$*
+Thumbs.db
+$RECYCLE.BIN/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+.idea_modules/
+*.sln.iml
+
+# Azure Pipelines
+*.azure-pipelines.yml
+
+# DotCover
+*.dotCover
+
+# BenchmarkDotNet artifacts
+BenchmarkDotNet.Artifacts/
+
+# NCrunch
+.ncrunch*
+_NCrunch_*/
+.*crunch*.local.xml
+
+# VS Code profiling
+*.psess
+*.vsp
+*.vspx
+*.vsps
+*.vspscc
+
+# Publish outputs
+publish/
+**/wwwroot/
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
