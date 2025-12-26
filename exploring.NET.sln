@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlipKeyLogicalProblem07", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRollPro07", "PayRollPro07\PayRollPro07.csproj", "{22A92F3D-E32F-463A-A2B9-427A1D3A0940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseDataProcessing&ControlSystem07", "EnterpriseDataProcessing&ControlSystem07\EnterpriseDataProcessing&ControlSystem07.csproj", "{45340E1E-5337-44FF-B941-2460359C40D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{22A92F3D-E32F-463A-A2B9-427A1D3A0940}.Release|x64.Build.0 = Release|Any CPU
 		{22A92F3D-E32F-463A-A2B9-427A1D3A0940}.Release|x86.ActiveCfg = Release|Any CPU
 		{22A92F3D-E32F-463A-A2B9-427A1D3A0940}.Release|x86.Build.0 = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|x64.Build.0 = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Debug|x86.Build.0 = Debug|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x64.ActiveCfg = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x64.Build.0 = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
