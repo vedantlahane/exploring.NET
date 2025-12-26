@@ -79,5 +79,18 @@ class Collection
             Console.WriteLine(q1.Dequeue());
         }
     }
+
+
+    public void Dictionary01()
+    {
+        Dictionary<int, string> dict = new Dictionary<int, string>();
+        dict.Add(1, "One");
+        dict.Add(2, "Two");
+        dict.Add(3, "Three");
+        foreach (KeyValuePair<int, string> kvp in dict)
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
+    }
     
 }
