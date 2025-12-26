@@ -8,6 +8,8 @@
         // iterating2DArray.Clear01();
         iterating2DArray.Copy01();
         iterating2DArray.Resize01();
+        iterating2DArray.IndexOf01();
+        iterating2DArray.Exists01();
     }
 
 

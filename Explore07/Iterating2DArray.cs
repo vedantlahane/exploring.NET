@@ -60,4 +60,19 @@ class Iterating2DArray
             Console.WriteLine(nums[i]);
         }
     }
+    
+
+    public void IndexOf01()
+    {
+        int[] data = {1, 2, 3, 4, 5};
+        int index = Array.IndexOf(data, 3);
+        Console.WriteLine(index);
+    }
+
+    public void Exists01()
+    {
+        int[] data = {1, 2, 3, 4, 5};
+        bool exists = Array.Exists(data, element => element == 3);
+        Console.WriteLine(exists);
+    }
 }
