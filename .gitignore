@@ -21,6 +21,7 @@
 *.DotSettings.user
 
 # NuGet
+.nuget/
 packages/
 *.nupkg
 project.lock.json
@@ -33,6 +34,10 @@ project.fragment.lock.json
 ~$*
 Thumbs.db
 $RECYCLE.BIN/
+
+# Test results
+TestResults/
+*.trx
 
 # Resharper
 _ReSharper*/
@@ -51,3 +56,4 @@ _ReSharper*/
 
 # Cache files
 *.cache
+*.NET.sln
