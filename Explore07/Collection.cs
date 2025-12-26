@@ -91,6 +91,22 @@ class Collection
         {
             Console.WriteLine($"{kvp.Key}: {kvp.Value}");
         }
+        Console.WriteLine("Other way to print: ");
+        for(int i = 0 ; i < dict.Count; i++)
+        {
+            Console.WriteLine($"{dict.ElementAt(i).Key}: {dict.ElementAt(i).Value}");
+        }
     }
     
+    public void HashSet01()
+    {
+        HashSet<int> hs = new HashSet<int>();
+        hs.Add(1);
+        hs.Add(2);
+        hs.Add(3);
+        foreach (int item in hs)
+        {
+            Console.WriteLine(item);
+        }
+    }
 }
