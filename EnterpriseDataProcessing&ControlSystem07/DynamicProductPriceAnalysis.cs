@@ -16,7 +16,7 @@ class DynamicProductPriceAnalysis
         while (i < num)
         {
             Console.Write($"Price for product #{i + 1}: ");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             if (string.IsNullOrEmpty(input) || !int.TryParse(input, out int temp) || temp <= 0)
             {
                 Console.WriteLine("Invalid price. Please enter a positive integer.");
