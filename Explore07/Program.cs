@@ -35,5 +35,14 @@
         iterating2DArray.IndexOf01();
         Console.WriteLine("Check if element exists in 2D Array:");
         iterating2DArray.Exists01();
+
+
+        Console.WriteLine("Find Frequency:");
+        FindTheFreq findTheFreq = new();
+        findTheFreq.FindFrequency();
+
+        Console.WriteLine("Merge Two Sorted Arrays:");
+        MergeTwoSortedArray mergeTwoSortedArray = new();
+        mergeTwoSortedArray.Merge01();
     }
 }
