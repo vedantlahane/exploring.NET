@@ -27,11 +27,11 @@ class DynamicProductPriceAnalysis
         }
 
         long sum = 0;
-        for (int idx = 0; idx < num; idx++)
+        for (int J = 0; J < num; J++)
         {
-            sum += arr[idx];
+            sum += arr[J];
         }
-        double avg = sum / (double)num;
+        double avg = sum / (double)num;//  num is double as dividing by interger would have lead to loss of precision
         Console.WriteLine($"\nCalculated average price: {avg}");
 
         Array.Sort(arr);

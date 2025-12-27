@@ -24,12 +24,11 @@ class BranchSalesAnalysis
                 if (!int.TryParse(Console.ReadLine(), out sales[i, j]))
                 {
                     Console.WriteLine("Invalid sales value.");
-                    j--; // retry
+                    j--;
                 }
             }
         }
 
-        // Calculate total sales per branch and the highest monthly sale across all branches
         int[] branchTotals = new int[branches];
         int highestSale = int.MinValue;
 
@@ -44,7 +43,6 @@ class BranchSalesAnalysis
             branchTotals[i] = sum;
         }
 
-        // Display branch totals and global highest sale
         Console.WriteLine();
         Console.WriteLine("Branch totals:");
         for (int i = 0; i < branches; i++)

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayRollPro07", "PayRollPro0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseDataProcessing&ControlSystem07", "EnterpriseDataProcessing&ControlSystem07\EnterpriseDataProcessing&ControlSystem07.csproj", "{45340E1E-5337-44FF-B941-2460359C40D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediSureClinic08", "MediSureClinic08\MediSureClinic08.csproj", "{39066054-B19D-4CEC-97BB-4242008B324E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,18 @@ Global
 		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x64.Build.0 = Release|Any CPU
 		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x86.ActiveCfg = Release|Any CPU
 		{45340E1E-5337-44FF-B941-2460359C40D3}.Release|x86.Build.0 = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|x64.Build.0 = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Debug|x86.Build.0 = Debug|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|x64.ActiveCfg = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|x64.Build.0 = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|x86.ActiveCfg = Release|Any CPU
+		{39066054-B19D-4CEC-97BB-4242008B324E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
