@@ -59,7 +59,6 @@
                         Console.WriteLine("Invalid medicine charges.");
                         break;
                     }
-                    // Now compute and store
                     LastBill = bill;
                     HasLastBill = true;
                     Console.WriteLine("Bill created successfully.");
