@@ -18,23 +18,54 @@
             {
                 case 1:
                     LastTransaction = new SaleTransaction();
+                    string? input;
                     Console.Write("Enter Invoice No: ");
-                    LastTransaction.InvoiceNo = Console.ReadLine();
+                    input = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(input))
+                    {
+                        Console.WriteLine("Invoice Number cannot be empty.");
+                        break;
+                    }
+                    LastTransaction.InvoiceNo = input;
                     Console.Write("Enter Customer Name: ");
-                    LastTransaction.CustomerName = Console.ReadLine();
+                    input = Console.ReadLine();  // Added: Read input for customer name
+                    if (string.IsNullOrWhiteSpace(input))
+                    {
+                        Console.WriteLine("Customer Name cannot be empty.");
+                        break;
+                    }
+                    LastTransaction.CustomerName = input;
                     Console.Write("Enter Item Name: ");
-                    LastTransaction.ItemName = Console.ReadLine();
+                    input = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(input))
+                    {
+                        Console.WriteLine("Item Name cannot be empty.");
+                        break;
+                    }
+                    LastTransaction.ItemName = input;
                     Console.Write("Enter Quantity: ");
                     int quantity;
-                    int.TryParse(Console.ReadLine(), out quantity);
+                    if (!int.TryParse(Console.ReadLine(), out quantity) || quantity < 0)
+                    {
+                        Console.WriteLine("Quantity must be a non-negative integer.");
+                        break;
+                    }
                     LastTransaction.Quantity = quantity;
                     Console.Write("Enter Purchase Amount (total): ");
                     decimal purchaseAmount;
-                    decimal.TryParse(Console.ReadLine(), out purchaseAmount);
+                    if (!decimal.TryParse(Console.ReadLine(), out purchaseAmount) || purchaseAmount < 0)
+                    {
+                        Console.WriteLine("Purchase Amount must be a non-negative decimal.");
+                        break;
+                    }
                     LastTransaction.PurchaseAmount = purchaseAmount;
                     Console.Write("Enter Selling Amount (total): ");
                     decimal sellingAmount;
-                    decimal.TryParse(Console.ReadLine(), out sellingAmount);
+                    if (!decimal.TryParse(Console.ReadLine(), out sellingAmount) || sellingAmount < 0)
+                    {
+                        Console.WriteLine("Selling Amount must be a non-negative decimal.");
+                        break;
+                    }
                     LastTransaction.SellingAmount = sellingAmount;
                     HasLastTransaction = true;
                     Console.WriteLine("Transaction saved successfully.");
@@ -43,20 +74,30 @@
                     Console.WriteLine($"Profit Margin (%): {LastTransaction.ProfitMarginPercent(LastTransaction.ProfitOrLossAmount(LastTransaction.ProfitOrLossStatus())):F2}");
                     break;
                 case 2:
-                    Console.WriteLine("-------------- Last Transaction --------------");
-                    Console.WriteLine($"InvoiceNo: {LastTransaction?.InvoiceNo}");
-                    Console.WriteLine($"Customer: {LastTransaction?.CustomerName}");
-                    Console.WriteLine($"Item: {LastTransaction?.ItemName}");
-                    Console.WriteLine($"Quantity: {LastTransaction?.Quantity}");
-                    Console.WriteLine($"Purchase Amount: {LastTransaction?.PurchaseAmount:F2}");
-                    Console.WriteLine($"Selling Amount: {LastTransaction?.SellingAmount:F2}");
-                    Console.WriteLine($"Status: {LastTransaction?.ProfitOrLossStatus()}");
-                    Console.WriteLine($"Profit/Loss Amount: {LastTransaction?.ProfitOrLossAmount(LastTransaction?.ProfitOrLossStatus() ?? ""):F2}");
-                    Console.WriteLine($"Profit Margin (%): {LastTransaction?.ProfitMarginPercent(LastTransaction?.ProfitOrLossAmount(LastTransaction?.ProfitOrLossStatus() ?? "") ?? 0):F2}");
-                    Console.WriteLine("--------------------------------------------");
+                    if (!HasLastTransaction)
+                    {
+                        Console.WriteLine("No bill available. Please create a new bill first.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("-------------- Last Transaction --------------");
+                        Console.WriteLine($"InvoiceNo: {LastTransaction?.InvoiceNo}");
+                        Console.WriteLine($"Customer: {LastTransaction?.CustomerName}");
+                        Console.WriteLine($"Item: {LastTransaction?.ItemName}");
+                        Console.WriteLine($"Quantity: {LastTransaction?.Quantity}");
+                        Console.WriteLine($"Purchase Amount: {LastTransaction?.PurchaseAmount:F2}");
+                        Console.WriteLine($"Selling Amount: {LastTransaction?.SellingAmount:F2}");
+                        Console.WriteLine($"Status: {LastTransaction?.ProfitOrLossStatus()}");
+                        Console.WriteLine($"Profit/Loss Amount: {LastTransaction?.ProfitOrLossAmount(LastTransaction?.ProfitOrLossStatus() ?? ""):F2}");
+                        Console.WriteLine($"Profit Margin (%): {LastTransaction?.ProfitMarginPercent(LastTransaction?.ProfitOrLossAmount(LastTransaction?.ProfitOrLossStatus() ?? "") ?? 0):F2}");
+                        Console.WriteLine("--------------------------------------------");
+                    }
+
                     break;
                 case 3:
+                    LastTransaction = null;
                     HasLastTransaction = false;
+                    Console.WriteLine("=========Lat Transaction Cleared========");
                     break;
                 case 4:
                     Console.WriteLine("Thank you. Application closed normally.");

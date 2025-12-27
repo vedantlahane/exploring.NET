@@ -1,7 +1,7 @@
 ﻿class Program
 {
-    static PatientBill? LastBill;
-    static bool HasLastBill;
+    public static PatientBill? LastBill;
+    public static bool HasLastBill;
 
     public static void Main(string[] args)
     {
@@ -22,49 +22,59 @@
             switch (choice)
             {
                 case 1:
-                    PatientBill bill = new PatientBill();
+                    LastBill = new PatientBill(); 
                     Console.Write("Enter Bill Id: ");
-                    bill.BillId = Console.ReadLine();
-                    if (string.IsNullOrWhiteSpace(bill.BillId))
+                    string? input;
+                    input = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(input))
                     {
                         Console.WriteLine("Bill Id cannot be empty.");
                         break;
                     }
+                    LastBill.BillId = input; 
                     Console.Write("Enter Patient Name: ");
-                    bill.PatientName = Console.ReadLine();
+                    input = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(input))
+                    {
+                        Console.WriteLine("Name cannot be empty.");
+                        break;
+                    }
+                    LastBill.PatientName = input;
                     Console.Write("Is the patient insured? (Y/N): ");
-                    string? insInput = Console.ReadLine();
-                    string ins = string.IsNullOrEmpty(insInput) ? "" : insInput.ToUpper();
+                    input = Console.ReadLine();
+                    string ins = string.IsNullOrEmpty(input) ? "" : input.ToUpper();
                     if (ins != "Y" && ins != "N")
                     {
                         Console.WriteLine("Invalid input for insurance.");
                         break;
                     }
-                    bill.HasInsurance = ins == "Y";
+                    LastBill.HasInsurance = ins == "Y";
                     Console.Write("Enter Consultation Fee: ");
-                    if (!decimal.TryParse(Console.ReadLine(), out bill.ConsultationFee) || bill.ConsultationFee <= 0)
+                    if (!decimal.TryParse(Console.ReadLine(), out decimal consultationFee) || consultationFee <= 0)
                     {
                         Console.WriteLine("Invalid consultation fee.");
                         break;
                     }
+                    LastBill.ConsultationFee = consultationFee; 
                     Console.Write("Enter Lab Charges: ");
-                    if (!decimal.TryParse(Console.ReadLine(), out bill.LabCharges) || bill.LabCharges < 0)
+                    if (!decimal.TryParse(Console.ReadLine(), out decimal labCharges) || labCharges < 0)
                     {
                         Console.WriteLine("Invalid lab charges.");
                         break;
                     }
+                    LastBill.LabCharges = labCharges;
                     Console.Write("Enter Medicine Charges: ");
-                    if (!decimal.TryParse(Console.ReadLine(), out bill.MedicineCharges) || bill.MedicineCharges < 0)
+                    if (!decimal.TryParse(Console.ReadLine(), out decimal medicineCharges) || medicineCharges < 0)
                     {
                         Console.WriteLine("Invalid medicine charges.");
                         break;
                     }
-                    LastBill = bill;
+                    LastBill.MedicineCharges = medicineCharges;
                     HasLastBill = true;
                     Console.WriteLine("Bill created successfully.");
-                    Console.WriteLine($"Gross Amount: {bill.GrossAmount():F2}");
-                    Console.WriteLine($"Discount Amount: {bill.DiscountAmount():F2}");
-                    Console.WriteLine($"Final Payable: {bill.FinalPayable():F2}");
+                    Console.WriteLine($"Gross Amount: {LastBill.GrossAmount():F2}");
+                    Console.WriteLine($"Discount Amount: {LastBill.DiscountAmount():F2}");
+                    Console.WriteLine($"Final Payable: {LastBill.FinalPayable():F2}");
                     Console.WriteLine("------------------------------------------------------------");
                     break;
                 case 2:
@@ -85,8 +95,8 @@
                         Console.WriteLine($"Discount Amount: {LastBill?.DiscountAmount():F2}");
                         Console.WriteLine($"Final Payable: {LastBill?.FinalPayable():F2}");
                         Console.WriteLine("--------------------------------");
+                        Console.WriteLine("------------------------------------------------------------");
                     }
-                    Console.WriteLine("------------------------------------------------------------");
                     break;
                 case 3:
                     LastBill = null;
