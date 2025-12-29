@@ -64,7 +64,7 @@ class TryCatchCaller
             int divisionCheck = serviceCharge / int.Parse("0");
 
             // File access
-            string data = File.ReadAllText("acount.txt");
+            string data = System.IO.File.ReadAllText("acount.txt");
             Console.WriteLine(data);
         }
         catch (FormatException ex)

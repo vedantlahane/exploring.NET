@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceID09", "FaceID09\FaceID
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explore09", "Explore09\Explore09.csproj", "{D565CFFC-6E7A-4B30-9FD2-FD6C570486C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureBankingWithdrawalSystemwithDefensive Programming09", "SecureBankingWithdrawalSystemwithDefensive Programming09\SecureBankingWithdrawalSystemwithDefensive Programming09.csproj", "{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,18 @@ Global
 		{D565CFFC-6E7A-4B30-9FD2-FD6C570486C7}.Release|x64.Build.0 = Release|Any CPU
 		{D565CFFC-6E7A-4B30-9FD2-FD6C570486C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{D565CFFC-6E7A-4B30-9FD2-FD6C570486C7}.Release|x86.Build.0 = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|x64.Build.0 = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Debug|x86.Build.0 = Debug|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|x64.ActiveCfg = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|x64.Build.0 = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|x86.ActiveCfg = Release|Any CPU
+		{EEE8B52B-29B7-4CEC-89D1-474F4FB91956}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
