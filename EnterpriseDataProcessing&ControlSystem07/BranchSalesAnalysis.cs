@@ -9,7 +9,7 @@ class BranchSalesAnalysis
             return new int[0, 0];
         }
         Console.Write("Enter number of months: ");
-        if (!int.TryParse(Console.ReadLine(), out int months) || months <= 0)
+        if (!int.TryParse(Console.ReadLine(), out int months) || months <= 0 || months>12)
         {
             Console.WriteLine("Invalid number of months.");
             return new int[0, 0];
